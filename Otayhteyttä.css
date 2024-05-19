@@ -1,0 +1,78 @@
+body { 
+    background-image: url("office-865091_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 125vh; 
+    width: 100%; 
+    margin: 0;
+}
+
+@media (max-width: 100vh) {
+    body {
+      background-size: cover;
+    }
+  }
+
+.navbar-custom { 
+    background-color: rgba(255, 255, 255, 0.867);
+  }
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+
+
+
+p { 
+    color:  rgba(255, 255, 255, 0.867);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    top: 150px; 
+    margin: 20px; 
+    font-style: italic;
+    text-align: center;
+
+}
+
+.label {
+    color:  rgba(255, 255, 255, 0.867);
+    position: absolute;
+    text-decoration: underline;
+
+}
+
+input[type="text"] {
+    margin: 50px;
+    width: 250px;
+    position: relative;
+    left: 50px;
+    
+}
+
+button {
+    color: black;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+
